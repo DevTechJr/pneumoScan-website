@@ -48,7 +48,7 @@ const SDGConnection = () => {
                       to={"/pneumoScan"}
                       className="hover:text-white text-white font-bold btn btn-secondary mx-2 flex items-center"
                     >
-                      <HiCursorClick className="text-white text-3xl font-bold mx-2" />{" "}
+                      <HiCursorClick className="text-white text-2xl font-bold mx-2" />{" "}
                       Detect Pneumonia Now!
                     </Link>
                   </button>
@@ -57,7 +57,7 @@ const SDGConnection = () => {
                       to={"/pneumonia"}
                       className="hover:text-white text-white font-bold btn btn-accent hover:btn-accent-focus mx-2 flex items-center justify-center"
                     >
-                      <FaBookMedical className="text-white  text-3xl font-bold mx-2" />{" "}
+                      <FaBookMedical className="text-white  text-2xl font-bold mx-2" />{" "}
                       Learn About Pneumonia
                     </Link>
                   </button>
