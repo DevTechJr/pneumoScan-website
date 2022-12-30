@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import NotFound from "./pages/NotFound";
+import HIW from "./pages/HIW";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import PneumoScan from "./pages/PneumoScan";
+import Pneumonia from "./pages/Pneumonia";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="p-3 px-10">
+        <Navbar />
+
+        <main className="container mx-auto flex items-center justify-center flex-col">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/hiw" element={<HIW />} />
+            <Route path="/notfound" element={<NotFound />} />
+            <Route path="/pneumoScan" element={<PneumoScan />} />
+            <Route path="/pneumonia" element={<Pneumonia />} />
+            {/* <Route path="/drugSearch" element={<DrugSearch />} />
+            <Route path="/drugScan" element={<DrugScan />} /> */}
+            {/* <Route path="/drugResult/:drugid" element={<DrugResult />} /> */}
+            <Route path="/*" element={<NotFound />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
