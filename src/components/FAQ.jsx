@@ -3,8 +3,8 @@ import Item from "./Item";
 
 const FAQ = () => {
   return (
-    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-primary rounded-2xl flex items-center">
-      <div class="w-1/2 max-w-xl sm:mx-auto lg:max-w-2xl p-10 bg-white rounded-2xl drop-shadow-xl">
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-primary rounded-2xl flex md:flex-row flex-col items-center">
+      <div class="md:w-1/2 w-full max-w-xl sm:mx-auto lg:max-w-2xl p-10 bg-white rounded-2xl drop-shadow-xl">
         <div class="flex flex-col mb-16 sm:text-center">
           <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
             <h2 class="max-w-lg mb-3 font-sans text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto">
@@ -46,7 +46,7 @@ const FAQ = () => {
         </div>
       </div>
 
-      <div className="w-1/2  p-3">
+      <div className=" md:w-1/2 w-full  p-3">
         {/* <img
           className="rounded-2xl ml-4 border-solid border-8 border-primary-content hover:-translate-y-3 transition linear duration-300"
           src={

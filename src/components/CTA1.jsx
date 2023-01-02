@@ -36,7 +36,7 @@ const CTA1 = () => {
           <div class="mt-4 md:mt-8 w-full md:flex-row flex-col flex items-center justify-between">
             <button className=" md:w-3/5 w-full mr-0 md:mr-1 md-my-0 my-2 h-full drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
               <Link
-                to={"/drugSearch"}
+                to={"/pneumoScan"}
                 className="hover:text-white text-white font-bold btn btn-secondary mx-2 flex items-center"
               >
                 <HiCursorClick className="text-white text-3xl font-bold mx-2" />{" "}
@@ -45,7 +45,7 @@ const CTA1 = () => {
             </button>
             <button className="md:w-2/5 w-full md:ml-1 ml-0 md-my-0 my-2 h-full drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
               <Link
-                to={"/drugSearch"}
+                to={"/hiw"}
                 className="hover:text-white text-white font-bold btn btn-primary mx-2 flex items-center"
               >
                 <GoSettings className="text-white  text-3xl font-bold mx-2" />{" "}
