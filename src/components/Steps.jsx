@@ -5,7 +5,7 @@ const Steps = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center mb-5 mt-5 p-10 bg-primary rounded-xl">
       <div className="w-full flex lg:p-14 flex-col items-center p-10 bg-white rounded-xl">
-        <div className="lg:divider">
+        <div className="lg:divider drop-shadow-xl">
           <h1 className="font-bold text-4xl text-primary text-center">
             How{" "}
             <span className="text-accent font-bold ml-2">
@@ -16,9 +16,9 @@ const Steps = () => {
           </h1>
         </div>
 
-        <div className="steps flex w-full justify-evenly mt-20 lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col">
-          <div class="flex justify-center flex flex-col lg:flex-row">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm border-solid border-4 border-primary mx-8 lg:my-0 my-10">
+        <div className="flex w-full justify-evenly mt-20 lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col">
+          <div class="flex justify-center flex flex-col lg:flex-row ">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm border-solid border-4 border-primary mx-4 md:mx-8 lg:my-0 my-10 drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
               <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                 <img
                   class="rounded-t-lg lg:h-64 h-30 w-full"
@@ -30,7 +30,7 @@ const Steps = () => {
                 <h5 class="text-primary text-xl font-medium my-5 divider">
                   Internationally Accessible
                 </h5>
-                <p class="text-primary-focus text-base mb-4 font-medium text-center">
+                <p class="text-primary-focus text-sm md:text-base p-2 mb-4 font-medium text-center">
                   PneumoScan is accessible online, which means that users can
                   access it from anywhere with an internet connection. This can
                   be particularly useful for people who live in remote or
@@ -39,7 +39,7 @@ const Steps = () => {
                 </p>
               </div>
             </div>
-            <div class="rounded-lg shadow-lg bg-white max-w-sm border-solid border-4 border-accent mx-8 lg:my-0 my-10">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm border-solid border-4 border-accent mx-4 md:mx-8 lg:my-0 my-10 drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
               <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                 <img
                   class="rounded-t-lg lg:h-64 h-30 w-full"
@@ -51,7 +51,7 @@ const Steps = () => {
                 <h5 class="text-accent text-xl font-medium my-5 divider">
                   Reduced Misdiagnosis
                 </h5>
-                <p class="text-accent-focus text-base mb-4 font-medium text-center">
+                <p class="text-accent-focus text-sm md:text-base p-2 mb-4 font-medium text-center">
                   PneumoScan has a high model accuracy of 92.3%, which means
                   that it is able to correctly identify pneumonia in X-ray
                   images with a high degree of accuracy. This can help to reduce
@@ -60,7 +60,7 @@ const Steps = () => {
                 </p>
               </div>
             </div>
-            <div class="rounded-lg shadow-lg bg-white max-w-sm border-solid border-4 border-primary mx-8 lg:my-0 my-10">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm border-solid border-4 border-primary mx-4 md:mx-8 lg:my-0 my-10 drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
               <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                 <img
                   class="rounded-t-lg lg:h-64 h-30 w-full"
@@ -72,7 +72,7 @@ const Steps = () => {
                 <h5 class="text-primary text-xl font-medium my-5 divider">
                   No-Cost Solution
                 </h5>
-                <p class="text-primary-focus text-base mb-4 font-medium text-center">
+                <p class="text-primary-focus text-sm md:text-base p-2 mb-4 font-medium text-center">
                   PneumoScan is free for everyone to use, which means that it is
                   accessible to people regardless of their financial resources.
                   People who may not have the means to pay for expensive medical

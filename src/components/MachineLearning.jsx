@@ -19,7 +19,7 @@ const MachineLearning = () => {
           <div className="flex">
             <div className="mr-4">
               <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-primary">
-                <SiTensorflow className="text-white text-2xl" />
+                <SiTensorflow className="text-white text-2xl drop-shadow-xl" />
               </div>
             </div>
             <div>
@@ -39,7 +39,7 @@ const MachineLearning = () => {
           <div className="flex">
             <div className="mr-4">
               <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-primary">
-                <SiStreamlit className="text-white text-2xl" />
+                <SiStreamlit className="text-white text-2xl drop-shadow-xl" />
               </div>
             </div>
             <div>
@@ -64,7 +64,7 @@ const MachineLearning = () => {
           <div className="flex">
             <div className="mr-4">
               <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-primary">
-                <SiReact className="text-white text-2xl" />
+                <SiReact className="text-white text-2xl drop-shadow-xl" />
               </div>
             </div>
             <div>
@@ -83,17 +83,17 @@ const MachineLearning = () => {
         </div>
         <div className="grid grid-cols-2 gap-5">
           <img
-            className="object-cover w-full h-56 col-span-2 rounded-2xl shadow-lg"
+            className="object-cover w-full h-56 col-span-2 rounded-2xl shadow-lg drop-shadow-xl"
             src="https://rpmarchildon.com/wp-content/uploads/2018/06/RM-CNN-Schematic-1.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
           <img
-            className="object-cover w-full h-56 rounded-2xl shadow-lg"
+            className="object-cover w-full h-56 rounded-2xl shadow-lg drop-shadow-xl"
             src="https://cdn.thenewstack.io/media/2021/11/28de6660-screen-shot-2021-11-29-at-6.46.11-am.png?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
           <img
-            className="object-cover w-full h-56 shadow-lg rounded-2xl"
+            className="object-cover w-full h-56 shadow-lg rounded-2xl drop-shadow-xl"
             src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />

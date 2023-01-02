@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaLungsVirus, FaViruses } from "react-icons/fa";
 import { FcAbout } from "react-icons/fc";
 import { BiCategory, BiCog } from "react-icons/bi";
+import {SlMagnifier} from "react-icons/sl"
 
 const Navbar = () => {
   return (
@@ -42,7 +43,7 @@ const Navbar = () => {
             </li>
             <li></li>
             <li>
-              <Link to={"/hiw"} className="hover:text-primary font-semibold">
+              <Link to={"/pneumonia"} className="hover:text-primary font-semibold">
                 WHAT IS PNEUMONIA
               </Link>
             </li>
@@ -50,7 +51,7 @@ const Navbar = () => {
         </div>
         <Link
           to={"/pneumoScan"}
-          className="btn btn-ghost normal-case text-2xl font-bold text-white flex items-center"
+          className="btn btn-ghost normal-case md:text-2xl text-xl font-bold text-white flex items-center"
         >
           <FaLungsVirus className="text-white text-3xl font-semibold mx-2" />{" "}
           PneumoScan™
@@ -90,9 +91,10 @@ const Navbar = () => {
       <div className="navbar-end">
         <Link
           to={"/pneumoScan"}
-          className="btn btn-accent font-bold text-md btn-outline "
+          className="btn btn-accent font-bold md:text-md text-sm btn-outline "
         >
-          Get Started
+          <span className="hidden md:block">Detect Now</span>
+          <span className="block md:hidden"><SlMagnifier className="text-xl" /></span>
         </Link>
       </div>
     </div>

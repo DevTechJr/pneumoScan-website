@@ -4,7 +4,7 @@ const BPvsVP = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       {/* <div className="w"></div> */}
-      <h1 className="text-primary text-3xl font-bold text-center mb-8 p-4 rounded-2xl bg-primary-content border-solid border-8 border-primary">
+      <h1 className="text-primary text-3xl font-bold text-center mb-8 p-4 rounded-2xl bg-primary-content border-solid border-8 border-primary drop-shadow-xl">
         Bacterial Pneumonia <span className="text-accent-content">VS</span>{" "}
         Viral Pneumonia
       </h1>

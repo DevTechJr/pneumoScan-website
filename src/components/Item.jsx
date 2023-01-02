@@ -4,7 +4,7 @@ import { useState } from "react";
 const Item = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="border rounded shadow-sm">
+    <div className="border border-primary border-2 rounded shadow-sm hover:skew-y-1 transition linear duration-300">
       <button
         type="button"
         aria-label="Open item"
@@ -12,7 +12,7 @@ const Item = ({ title, children }) => {
         className="flex items-center justify-between w-full p-4 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <p className="text-lg font-medium">{title}</p>
+        <p className="lg:text-lg md:text-lg text-md font-medium">{title}</p>
         <div className="flex items-center justify-center w-8 h-8 border rounded-full">
           <svg
             viewBox="0 0 24 24"
@@ -34,7 +34,7 @@ const Item = ({ title, children }) => {
       </button>
       {isOpen && (
         <div className="p-4 pt-0">
-          <p className="text-gray-700">{children}</p>
+          <p className="bg-primary-content p-3 rounded-2xl font-medium text-grey-900 text-sm">{children}</p>
         </div>
       )}
     </div>

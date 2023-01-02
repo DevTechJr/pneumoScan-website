@@ -22,8 +22,8 @@ const CTA3 = () => {
             detect pneumonia from X-ray images. Learn more about how it works!
           </p>
 
-          <div class="mt-4 md:mt-8 w-full flex items-center justify-between">
-            <button className="w-3/5 mr-1 h-full">
+          <div class="mt-4 md:mt-8 w-full flex md:flex-row flex-col items-center justify-between">
+            <button className="md:w-3/5 w-full md:mr-1 mr-0 md:my-0 my-2 h-full drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
               <Link
                 to={"/pneumoScan"}
                 className="hover:text-white text-white font-bold btn btn-secondary mx-2 flex items-center"
@@ -32,7 +32,7 @@ const CTA3 = () => {
                 Detect Pneumonia Now!
               </Link>
             </button>
-            <button className="w-2/5 ml-1 h-full">
+            <button className="md:w-2/5 w-full md:ml-1 ml-0 h-full md:my-0 my-2 drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
               <Link
                 to={"/pneumonia"}
                 className="hover:text-white text-white font-bold btn btn-primary mx-2 flex items-center"
