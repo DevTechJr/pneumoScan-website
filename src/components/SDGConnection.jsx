@@ -22,7 +22,7 @@ const SDGConnection = () => {
 
                 <p class="sm:mt-4 sm:block drop-shadow-xl">
                   <div className="p-3 rounded-2xl bg-primary-content text-grey-900 lg:text-md md:text-sm text-sm font-medium drop-shadow-xl">
-                    UN SDG #3, or the United Nations Sustainable Development
+                    UN SDG #3, also known as the United Nations Sustainable Development
                     Goal #3, is to "ensure healthy lives and promote well-being
                     for all at all ages." PneumoScan could potentially
                     contribute to this goal by providing an accessible and

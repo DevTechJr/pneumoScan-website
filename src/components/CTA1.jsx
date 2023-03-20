@@ -21,16 +21,16 @@ const CTA1 = () => {
           </h2>
 
           <p class="hidden text-primary-focus md:mt-4 md:block font-medium text-md">
-            PneumoScan is an online app that uses artificial intelligence to
-            detect pneumonia from X-ray images. It allows users to upload an
-            X-ray image and receive a prediction on whether or not the image
-            contains pneumonia. <br /> <br />
-            The app uses a deep learning model that has been trained on a
-            dataset of X-ray images to make these predictions. The project
-            includes a web interface for the app and a back-end server to
-            process the predictions made by the model. The purpose of this app
-            is to provide an easy and accurate way for everyone to detect
-            pneumonia instantly using X-ray images.
+            PneumoScan is an online app designed that uses AI to
+            detect variants of pneumonia from X-ray images. It allows users to
+            upload an xray scan of the chest and get a free prediction about the
+            presence of pneumonia. <br /> <br />
+            The app is powered by a machine learning model that has been trained
+            on a public database of X-ray images. The web application has a web
+            interface for users to upload images to. Predictions are made from
+            the backend. The purpose of this project is to create a free and
+            accessible medical solution to healthcare professionals for a better
+            diagnosis of Pneumonia.
           </p>
 
           <div class="mt-4 md:mt-8 w-full md:flex-row flex-col flex items-center justify-between">

@@ -15,7 +15,7 @@ function App() {
       <div className="p-3 px-10">
         <Navbar />
 
-        <main className="container mx-auto flex items-center justify-center flex-col">
+        <main className="select-none container mx-auto flex items-center justify-center flex-col">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/hiw" element={<HIW />} />
