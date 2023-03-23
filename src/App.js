@@ -12,7 +12,7 @@ import Pneumonia from "./pages/Pneumonia";
 function App() {
   return (
     <Router>
-      <div className="p-3 px-10">
+      <div className="p-3 px-2 md:px-10">
         <Navbar />
 
         <main className="select-none container mx-auto flex items-center justify-center flex-col">

@@ -4,7 +4,7 @@ import { useState } from "react";
 const Item = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="border border-primary border-2 rounded shadow-sm hover:skew-y-1 transition linear duration-300">
+    <div className="border border-primary border-2 rounded shadow-sm md-hover:skew-y-1 transition linear duration-300">
       <button
         type="button"
         aria-label="Open item"

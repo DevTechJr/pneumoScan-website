@@ -43,8 +43,20 @@ const Navbar = () => {
             </li>
             <li></li>
             <li>
-              <Link to={"/pneumonia"} className="hover:text-primary font-semibold">
+              <Link
+                to={"/pneumonia"}
+                className="hover:text-primary font-semibold"
+              >
                 WHAT IS PNEUMONIA
+              </Link>
+            </li>
+            <li></li>
+            <li>
+              <Link
+                to={"/pneumoScan"}
+                className="hover:text-primary font-semibold"
+              >
+                TRY NOW
               </Link>
             </li>
           </ul>
@@ -91,10 +103,10 @@ const Navbar = () => {
       <div className="navbar-end">
         <Link
           to={"/pneumoScan"}
-          className="btn btn-accent font-bold md:text-md text-sm btn-outline "
+          className="invisible md:visible  btn btn-accent font-bold md:text-md text-sm btn-outline "
         >
           <span className="hidden md:block">Detect Now</span>
-          <span className="block md:hidden"><SlMagnifier className="text-xl" /></span>
+          {/* <span className="block md:hidden"><SlMagnifier className="text-xl" /></span> */}
         </Link>
       </div>
     </div>

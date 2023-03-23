@@ -18,10 +18,10 @@ const Steps = () => {
 
         <div className="flex w-full justify-evenly mt-20 lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col">
           <div class="flex justify-center flex flex-col lg:flex-row ">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm border-solid border-4 border-primary mx-4 md:mx-8 lg:my-0 my-10 drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm border-solid border-4 border-primary mx-6 md:mx-8 lg:my-0 my-10 drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
               <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                 <img
-                  class="rounded-t-lg lg:h-64 h-30 w-full"
+                  class="md:block hidden rounded-t-lg lg:h-64 h-30 w-full"
                   src="https://guardian.ng/wp-content/uploads/2016/03/Internet-IPv6.jpg"
                   alt=""
                 />
@@ -42,7 +42,7 @@ const Steps = () => {
             <div class="rounded-lg shadow-lg bg-white max-w-sm border-solid border-4 border-accent mx-4 md:mx-8 lg:my-0 my-10 drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
               <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                 <img
-                  class="rounded-t-lg lg:h-64 h-30 w-full"
+                  class="md:block hidden rounded-t-lg lg:h-64 h-30 w-full"
                   src="https://global-uploads.webflow.com/5ec4696a9b6d337d51632638/603ec732867d8566474be592_Machine%20Learning%20Accuracy%20Using%20Synthetic%20Data.png"
                   alt=""
                 />
@@ -63,8 +63,8 @@ const Steps = () => {
             <div class="rounded-lg shadow-lg bg-white max-w-sm border-solid border-4 border-primary mx-4 md:mx-8 lg:my-0 my-10 drop-shadow-xl hover:-translate-y-2 transition linear duration-300">
               <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                 <img
-                  class="rounded-t-lg lg:h-64 h-30 w-full"
-                  src="https://telehealth.hhs.gov/assets/img/about-telehealth.svg"
+                  class="md:block hidden rounded-t-lg lg:h-64 h-30 w-full"
+                  src="https://cdn01.alison-static.net/public/html/site/img/email/healthcare-hub-header-img.png"
                   alt=""
                 />
               </a>
